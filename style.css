@@ -5,5 +5,18 @@ body {
 }
 
 .Highlight{
-    color:blue
+    color:blue;
+}
+.box {
+    text-align: center;
+    width:80%;
+    padding: 20px;
+    margin: auto;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+
 }
