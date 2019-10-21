@@ -7,16 +7,38 @@ body {
 .Highlight{
     color:blue;
 }
+nav {
+    display: inline;
+}
 .box {
     text-align: center;
-    width:80%;
-    padding: 20px;
-    margin: auto;
+    padding: 1px 1px 1px 1px;
+    display: inline;
+    margin: 10px;
+    border-radius:3px;
+    border-color: blue;
+    color: white;
+    border-style:solid;
+    background-color: #0000ff;
+}
+}
+#Current {
+    text-align: center;
+    padding: 1px 1px 1px 1px;
+    display: inline;
+    margin: 10px;
+    border-radius:3px;
+    border-color: blue;
+    color: blue;
+    border-style:solid;
+    background-color: #4f9eff;
+}
 
+li {
+    padding:5px 0px 5px 0px;
+    list-style-type: none;
+    display: inline;
 }
 a{
     text-decoration: none;
-}
-ul{
-
 }
