@@ -2,6 +2,7 @@
 
 body {
     font-family:"Quicksand", Times, sans-serif;
+    background-color: #73d1ff;
 }
 
 .Highlight{
@@ -10,27 +11,47 @@ body {
 nav {
     display: inline;
 }
-.box {
+#title{
+    display: inline;
+    font-weight: bold;
+}
+.page-links {
+    display:inline;
+    float:right;
+    
+}
+.Container-1 {
+    border-bottom:4px solid red;
+    padding-bottom: 10px;
+}
+.Container-2 {
+    width:33.3%;
+    float:left;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: blue;
+    padding: 0px 4px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.Button {
     text-align: center;
+    float: left
     padding: 1px 1px 1px 1px;
     display: inline;
     margin: 10px;
+    padding: 5px;
     border-radius:3px;
     border-color: blue;
     color: white;
     border-style:solid;
     background-color: #0000ff;
-}
+    text-transform: uppercase;
+    font-weight: bold;
 }
 #Current {
-    text-align: center;
-    padding: 1px 1px 1px 1px;
-    display: inline;
-    margin: 10px;
-    border-radius:3px;
     border-color: blue;
     color: blue;
-    border-style:solid;
     background-color: #4f9eff;
 }
 
@@ -41,4 +62,10 @@ li {
 }
 a{
     text-decoration: none;
+}
+
+.Container-3 {
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid red;
 }
