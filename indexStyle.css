@@ -36,3 +36,19 @@ bottom: 20px;
     left: 1000px;
     bottom: 500px;
 }
+
+.Container-1 {
+    border-bottom:4px solid red;
+    padding-bottom: 10px;
+}
+
+.Container-2 {
+    width:33.3%;
+    float:left;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: blue;
+    padding: 0px 4px;
+    margin: 0px;
+    box-sizing: border-box;
+}
