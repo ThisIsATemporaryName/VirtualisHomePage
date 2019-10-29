@@ -37,6 +37,7 @@ bottom: 20px;
     bottom: 500px;
 }
 
+<<<<<<< HEAD
 .Container-1 {
     border-bottom:4px solid red;
     padding-bottom: 10px;
@@ -52,3 +53,38 @@ bottom: 20px;
     margin: 0px;
     box-sizing: border-box;
 }
+=======
+
+/*Fatimah trying some mess*/
+
+.slideshow{
+    background-color: black;
+    background: url("BACKGROUNDALL.png");
+    background-size: 205% 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 35%%;
+    width: 100%;
+
+}
+
+@keyframes slideshow{
+    0% {left: 0;}
+    100% {left: -200%;}
+}
+
+
+@keyframes moveSlideshow{
+    100% {
+        -webkit-transform: translateX(-200%);
+    }
+}
+
+.slideshow > div {
+    position: relative;
+    overflow: hidden;
+    transition: opacity 0.5s ease-out;
+    animation: moveSlideshow 55s linear infinite;
+}
+>>>>>>> 58645e20717fa1e24e10ce8910d77d960d51d92f
