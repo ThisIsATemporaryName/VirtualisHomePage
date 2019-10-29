@@ -11,7 +11,9 @@ header{
     background-color:#4C5998;
     top:0;
 }
-
+#Subscription{
+    margin-top: 10px
+}
 .Highlight{
     color:blue;
 }
