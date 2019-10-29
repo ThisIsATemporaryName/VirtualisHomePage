@@ -2,7 +2,14 @@
 
 body {
     font-family:"Quicksand", Times, sans-serif;
-    background-color: #73d1ff;
+    background-color: #4C5998;
+}
+
+header{
+    position:fixed;
+    width:100%;
+    background-color:#4C5998;
+    top:0;
 }
 
 .Highlight{
@@ -18,21 +25,24 @@ nav {
 .page-links {
     display:inline;
     float:right;
-    
 }
 .Container-1 {
     border-bottom:4px solid red;
     padding-bottom: 10px;
 }
 .Container-2 {
-    width:33.3%;
+    width:50%;
     float:left;
     border-radius: 2px;
     border-style: solid;
     border-color: blue;
+    background-color: #444A61;
     padding: 0px 4px;
     margin: 0px;
     box-sizing: border-box;
+}
+#bigger-container {
+    width:100%;
 }
 .Button {
     text-align: center;
@@ -49,10 +59,18 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+.Button:hover{
+    background-color:#5786ff;
+}
 #Current {
     border-color: blue;
     color: blue;
-    background-color: #4f9eff;
+    background-color: white;
+}
+
+#Current:hover{
+    background-color:#99b2f0;
 }
 
 li {
@@ -68,4 +86,18 @@ a{
     margin-bottom: 20px;
     padding-bottom: 5px;
     border-bottom: 2px solid red;
+}
+
+.Image-container{
+    width:40%;
+    float:left
+}
+
+.Text-container {
+    color:blue;
+}
+
+#blank {
+    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
