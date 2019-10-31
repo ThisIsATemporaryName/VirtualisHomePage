@@ -1,10 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
+/*General attributes*/
+
 body {
     font-family:"Quicksand", Times, sans-serif;
     background-color: #4C5998;
 }
 
+.Button {
+    text-align: center;
+    float: left
+    padding: 1px 1px 1px 1px;
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    border-radius:3px;
+    border-color: blue;
+    color: white;
+    border-style:solid;
+    background-color: #0000ff;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition:2s
+}
+
+.Button:hover{
+    background-color:#5786ff;
+}
+
+
+
+/*Navigation bar*/
 header{
     position:fixed;
     width:100%;
@@ -32,6 +58,46 @@ nav {
     border-bottom:4px solid #0000ff;
     padding-bottom: 10px;
 }
+
+#Current { /*The current id is for the current page, in the navigation bar*/
+    border-color: blue;
+    color: blue;
+    background-color: white;
+}
+
+#Current:hover{
+    background-color:#99b2f0;
+}
+
+ul {
+    margin-right: 20px
+}
+li {
+    padding:5px 0px 5px 0px;
+    list-style-type: none;
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+
+/*End of Navigation bar*/
+
+/*Subscription box*/
+.Container-3 {
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #0000ff;
+}
+
+.Image-container{
+    width:40%;
+    float:left
+}
+/*End of Subscription box*/
+
+/*Text boxes and information*/
+
 .Container-2 {
     width:50%;
     float:left;
@@ -46,59 +112,27 @@ nav {
 #bigger-container {
     width:100%;
 }
-.Button {
-    text-align: center;
-    float: left
-    padding: 1px 1px 1px 1px;
-    display: inline;
-    margin: 10px;
-    padding: 5px;
-    border-radius:3px;
-    border-color: blue;
-    color: white;
-    border-style:solid;
-    background-color: #0000ff;
-    text-transform: uppercase;
-    font-weight: bold;
-}
 
-ul {
-    margin-right: 20px
-}
-.Button:hover{
-    background-color:#5786ff;
-}
-#Current {
-    border-color: blue;
-    color: blue;
-    background-color: white;
-}
+/*End of Text boxes and information*/
 
-#Current:hover{
-    background-color:#99b2f0;
-}
-
-li {
-    padding:5px 0px 5px 0px;
-    list-style-type: none;
-    display: inline;
-}
-a{
-    text-decoration: none;
-}
-
-.Container-3 {
-    margin-bottom: 20px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #0000ff;
-}
-
-.Image-container{
-    width:40%;
-    float:left
-}
-
+/*Miscellaneous*/
 #blank {
     margin-bottom: 100px;
     padding-bottom: 100px;
 }
+/*End of Miscellaneous*/
+
+
+/*#video {
+    position:relative;
+    width:100%;
+    padding-top: 56.25%;
+}
+
+iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}*/
