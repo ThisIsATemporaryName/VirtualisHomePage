@@ -5,27 +5,31 @@
 body {
     font-family:"Quicksand", Times, sans-serif;
     background-color: #4C5998;
+    background: url(Wallpaper.jpg) no-repeat;
+    background-size: cover;
+    color:white;
 }
 
 .Button {
     text-align: center;
-    float: left
     padding: 1px 1px 1px 1px;
     display: inline;
     margin: 10px;
     padding: 5px;
-    border-radius:3px;
+    border-radius:7px;
     border-color: blue;
     color: white;
     border-style:solid;
     background-color: #0000ff;
     text-transform: uppercase;
     font-weight: bold;
-    transition:2s
+    transition:0.5s;
 }
 
 .Button:hover{
     background-color:#5786ff;
+    font-size: 20px;
+    box-shadow: 2px 4px #0642a1;
 }
 
 
@@ -34,7 +38,7 @@ body {
 header{
     position:fixed;
     width:100%;
-    background-color:#4C5998;
+    background-color:rgba(21, 60, 189,0.3);
     top:0;
 }
 #Subscription{
@@ -48,6 +52,7 @@ nav {
 }
 #title{
     display: inline;
+    color:white;
     font-weight: bold;
 }
 .page-links {
@@ -94,6 +99,22 @@ a{
     width:40%;
     float:left
 }
+
+input {
+    background-color: white;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    /*border-style: none;*/
+    transition: 0.5s;
+    outline:none;
+}
+
+input:focus {
+    font-size: 1.2rem;
+    border: 5px solid black;
+    height: 30px;
+}
 /*End of Subscription box*/
 
 /*Text boxes and information*/
@@ -106,7 +127,7 @@ a{
     border-color: blue;
     background-color: #444A61;
     padding: 0px 4px;
-    margin: 0px;
+    margin-top:20px;
     box-sizing: border-box;
 }
 #bigger-container {
