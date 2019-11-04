@@ -42,7 +42,7 @@ bottom: 20px;
 
 .slideshow{
     background-color: black;
-    background: url("indexPictures\BACKGROUNDALL");
+    background: url("/Virtualis/indexStyle/BACKGROUNDALL.png");
     background-size: 205% 100%;
     position: relative;
     left: 0;
