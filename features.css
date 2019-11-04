@@ -9,7 +9,9 @@ body {
     background-size: cover;
     color:white;
 }
-
+#blur {
+        filter:blur(9px);
+}
 .Button {
     text-align: center;
     padding: 1px 1px 1px 1px;
@@ -142,6 +144,87 @@ input:focus {
     padding-bottom: 100px;
 }
 /*End of Miscellaneous*/
+
+/* Subscription Pop up */
+.Container-4 {
+    width: 50%;
+    margin:auto;
+    position: fixed;
+    text-align: center;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 40px;
+    background-color: rgba(21, 60, 189,0.7);
+    top:15%;
+    left:25%;
+    filter: none;
+}
+
+.Container-4 h1 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 1200;
+}
+
+.Container-4 input {
+    display:block;
+    margin:auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.Container-4 .Button{
+    display:block;
+    margin:auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.Container-4 p {
+    color:greenyellow;
+    font-size: 1.3em;
+    font-weight: 900;
+}
+textarea {
+    background-color: white;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    /*border-style: none;*/
+    transition: 0.5s;
+    outline:none;
+    width:90%;
+}
+
+textarea:focus {
+    font-size: 1.2rem;
+    border: 3px solid blue;
+    height: 30px;
+}
+/* End of Subscription Pop up */
+
+
+
+
+
+
+
+
+
+
+
+/*Copyright section */
+/*#Copyright {
+    width: 100%;
+    color: white;
+    background: black;
+    font-size: 1.5em;
+    text-align: center;
+}*/
+
+#Copyright {
+    text-align: center;
+}
+/*End of Copyright Section*/
 
 
 /*#video {
