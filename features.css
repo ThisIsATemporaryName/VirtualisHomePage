@@ -270,6 +270,12 @@ textarea:focus {
     background-color:rgba(0,0,0,0);
 }
 
+#icon {
+    width:128px;
+    /* margin:auto; */
+    position: relative;
+    align-items: center;
+}
 /*End of Pricing page */
 
 
