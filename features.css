@@ -212,10 +212,10 @@ textarea:focus {
 }
 #Cover1 {
     width:100%;
-    height: 100px;
+    height: 14vh;
     background-color: purple;
     position: relative;
-    top:-100px;
+    top:-13vh;
     z-index: 50;
     border-radius:20px;
     transition:2s;
@@ -227,10 +227,10 @@ textarea:focus {
 
 #Cover2 {
     width:100%;
-    height: 100px;
+    height: 14vh;
     background-color: yellow;
     position: relative;
-    top:-100px;
+    top:-13vh;
     z-index: 50;
     border-radius:20px;
     transition:2s;
@@ -242,10 +242,10 @@ textarea:focus {
 
 #Cover3 {
     width:100%;
-    height: 100px;
+    height: 14vh;
     background-color: darkred;
     position: relative;
-    top:-100px;
+    top:-13vh;
     z-index: 50;
     border-radius:20px;
     transition:2s;
@@ -257,10 +257,10 @@ textarea:focus {
 
 #Cover4 {
     width:100%;
-    height: 100px;
+    height: 14vh;
     background-color: green;
     position: relative;
-    top:-100px;
+    top:-13vh;
     z-index: 50;
     border-radius:20px;
     transition:2s;
