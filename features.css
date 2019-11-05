@@ -10,7 +10,7 @@ body {
     color:white;
 }
 #blur {
-        filter:blur(9px);
+        filter:blur(5px);
 }
 .Button {
     text-align: center;
@@ -42,6 +42,7 @@ header{
     width:100%;
     background-color:rgba(21, 60, 189,0.3);
     top:0;
+    z-index:51;
 }
 #Subscription{
     margin-top: 70px
@@ -202,7 +203,74 @@ textarea:focus {
 }
 /* End of Subscription Pop up */
 
+/* Pricing page stuff */
 
+#Pricing1 {
+    margin:auto;
+    width:90%;
+    background-color: none;
+}
+#Cover1 {
+    width:100%;
+    height: 100px;
+    background-color: purple;
+    position: relative;
+    top:-100px;
+    z-index: 50;
+    border-radius:20px;
+    transition:2s;
+}
+
+#Cover1:hover {
+    background-color:rgba(0,0,0,0);
+}
+
+#Cover2 {
+    width:100%;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    top:-100px;
+    z-index: 50;
+    border-radius:20px;
+    transition:2s;
+}
+
+#Cover2:hover {
+    background-color:rgba(0,0,0,0);
+}
+
+#Cover3 {
+    width:100%;
+    height: 100px;
+    background-color: darkred;
+    position: relative;
+    top:-100px;
+    z-index: 50;
+    border-radius:20px;
+    transition:2s;
+}
+
+#Cover3:hover {
+    background-color:rgba(0,0,0,0);
+}
+
+#Cover4 {
+    width:100%;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    top:-100px;
+    z-index: 50;
+    border-radius:20px;
+    transition:2s;
+}
+
+#Cover4:hover {
+    background-color:rgba(0,0,0,0);
+}
+
+/*End of Pricing page */
 
 
 
