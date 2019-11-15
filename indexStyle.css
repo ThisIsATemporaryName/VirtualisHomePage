@@ -32,6 +32,29 @@ body {
     box-shadow: 2px 4px #0642a1;
 }
 
+.Button1 {
+    text-align: center;
+    padding: 1px 1px 1px 1px;
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    border-radius:7px;
+    border-color:lightseagreen;
+    color: white;
+    border-style:solid;
+    background-color: lightseagreen;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition:0.5s;
+    font-size: 35px;
+}
+
+.Button1:hover{
+    background-color:#57ffc7;
+    font-size: 50px;
+    box-shadow: 2px 4px #39b99e;
+}
+
 
 
 /*Navigation bar*/
@@ -97,9 +120,9 @@ a{
 }
 
 .homepagemaintext{
-    position: fixed;
+    position: relative;
     left: 1000px;
-    bottom: 500px;
+    top: 500px;
 }
 
 
