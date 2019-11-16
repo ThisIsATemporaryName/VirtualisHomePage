@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    font-family:"Quicksand", Times, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+#Scroll {
+    display:none;
+    position:fixed;
+    left:90vw;
+    top:80vh;
+    background:transparent;
+    border: none;
+}
+
+#Scroll:hover{
+    box-shadow: 2px 2px 2px 8px white;
+}
+
+
+#ScrollPic {
+    width: 5vw;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* HomePage */
+nav {
+    height:100vh;
+    background: url(./Pictures/Wallpaper1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+ul {
+    float:right;
+    list-style-type: none;
+    margin-top: 3vh;
+    margin-right: 10vh;
+}
+
+ul li {
+    display:inline-block;
+}
+
+.button {
+    color: #494949;
+    margin: 0.3vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: white;
+    border-radius: 4px;
+    padding: 5px;
+    border: 2px solid #0044ff;
+    transition: all 0.4s ease 0s;
+}
+
+.Button:hover{
+    color: white;
+    background-color: #0044ff;
+    border-color: #0044ff;
+    box-shadow: 2px 4px white;
+}
+
+#Download {
+    background-color:#00ff44;
+    border-color: #0044ff;
+}
+
+#Download:hover {
+    background-color: #0044ff;
+    border-color: #0044ff;
+}
+
+#logo {
+    float: left;
+    height: 10vh;
+    padding-left: 5vh;
+}
+
+#title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 5vh;
+    white-space: nowrap;
+}
+
+#links {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Button_2 {
+    color: white;
+    font-size: 3vh;
+    text-transform: uppercase;
+    background: #00ff44;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: 0.5s;
+}
+
+.Button_2 span {
+    display: inline-block;
+    transition: 0.5s;
+    font-size: 4vh;
+}
+
+.Button_2 span::after {
+    content: '\2193';
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    right: 50%;
+    transition: 0.5s;
+}
+
+.Button_2:hover span {
+    padding-bottom: 25px;
+  }
+.Button_2:hover span:after {
+    opacity: 1;
+    right: 50%;
+  }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* All pages */
+.SectionTitle {
+    text-align: center;
+    color:white;
+    font-size: 4vh;
+}
+
+
+/*Services Page */
+#services {
+    height: 200vh;
+    background-color: #fac83e;
+}
+
+.description{
+    margin:auto;
+    width: 80%;
+}
+
+.description h2 {
+    text-align: center;   
+    margin-top: 5vh;
+    font-size: 5vh;
+    color: blue;
+}
+
+.description p {
+    text-align: center;
+    color:blue;
+    font-size: 3vh;
+    margin-top: 3vh;
+}
+
+
+
+.features {
+    width: 90%;
+    height: 20%;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.featurespic {
+    margin-top: 7vh;
+    margin-left: 20vh;
+    height: 30vh;
+
+}
+
+.featurestext {
+    display: inline-block;
+    font-size: 5vh;
+    float: right;
+    margin-right: 10%;
+    margin-top: 7vh;
+    color:white;
+    font-weight: 900;
+}
+
+#pic2 {
+    float: right;
+    margin-left: 0;
+    margin-right: 20vh;
+}
+
+#text2 {
+    float:left;
+    margin-right: 0;
+    margin-left: 10%;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*Pricing Page */
+
+#pricing {
+    height: 150vh;
+    background-color: #00ffea;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*About Page */
+
+#about {
+    height: 150vh;
+    background-color: #9900ff;
+}
