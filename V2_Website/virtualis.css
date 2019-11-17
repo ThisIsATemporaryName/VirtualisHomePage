@@ -220,6 +220,43 @@ ul li {
     height: 150vh;
     background-color: #00ffea;
 }
+.pricingspic {
+    margin-top: 7vh;
+    margin-left: 55vh;
+    height: 500px;
+    width: 700px;
+
+}
+
+.pricingtext {
+    display: inline-block;
+    font-size: 5vh;
+    float: right;
+    margin-right: 10%;
+    margin-top: 7vh;
+    color:white;
+    font-weight: 900;
+}
+
+.Pbutton {
+    color: rgb(85, 85, 85);
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #b9ffbc;
+    border-radius: 4px;
+    padding: 5px;
+    border: 2px solid #07e412;
+    transition: all 0.4s ease 0s;
+    margin-left: 70vh;
+    font-size: 50px;
+}
+
+.Pbutton:hover{
+    color: black;
+    background-color: #4ff52a;
+    border-color: #9ff0a3;
+    box-shadow: 2px 4px green;
+}
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -229,4 +266,10 @@ ul li {
 #about {
     height: 150vh;
     background-color: #9900ff;
+}
+.aboutpic {
+    margin-top: 7vh;
+    margin-left: 20vh;
+    height: 800px;
+    width: 1200px;
 }
