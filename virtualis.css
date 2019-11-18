@@ -378,4 +378,14 @@ ul li {
 }
 
 
-/* REMEMBER TO CHANGE ALOT OF THIS STUFF TO VIEWPORT WIDTH INSTAED OF HEIGHT SO YOU CAN FIX THE SCALING ISSUES!!!!!!*/
+/* Copyright section */
+#Copyright {
+    font-weight: 900;
+    background: white;
+    color: black;
+}
+
+#Copyright p{
+    color: black;
+    text-align: center;
+}
