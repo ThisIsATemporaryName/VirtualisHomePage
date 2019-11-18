@@ -1,49 +1,218 @@
-<!DOCTYPE html
 <html>
-<head>
-    <title>Virtualis Homepage</title>
-    <link rel="stylesheet" href="indexStyle.CSS" />
-    <img src="Virtualis Logo.png" width="150" height="75"/>
-</head>
-
-<body >
-    <header>
-        <div class="Container-1">
-            <h1 id="title"><span class="Highlight">Virtualis:</span> Your Virtual Future</h1>
-            <nav class="page-links">
+    <head>
+        <title>Virtualis Home Page</title>
+        <meta name="description" content="Pricing page for Virtualis products">
+        <meta name="author" content="Youcef Ben Ali">
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="virtualis.css">
+        <script src="virtualis.js"></script>
+    </head>
+    <body>
+        <div id="HomePage">
+            <nav id="Nav">
+                <img id="logo" src="./Pictures/Logo1.png">
                 <ul>
-                    <li><a id="Current" class="Button" href="index.html">Home</a></li>
-                    <li><a class="Button" href="features.html">Features</a></li>
-                    <li><a class="Button" href="contact.html">About Us</a></li>
-                    <li><a class="Button" href="pricing.html">Pricing</a></li>
+                    <li><a class="Button" href="#">Home</a></li>
+                    <li><a class="Button" href="#services">Services</a></li>
+                    <li><a class="Button" href="#pricing">Pricing</a></li>
+                    <li><a class="Button" href="#about">About us</a></li>
+                    <li><a class="Button" id="Download" href="#">Download</a></li>
                 </ul>
             </nav>
-        </div>
-    </header>
-    <div class="homepagemain">
-            <img src="homepage.jpg" width="1500" height="600">
-            <p class="homepagemaintext">
-                    <li><a class="Button1" href="index.html">Start Your Free Trial!</a></li>
-            </p>  
-    </div>
 
+            <div id="title">
+                <h1>Virtualis: Your new Future</h1>
+            </div>
 
-    <!--Fatimah trying out a slideshow thing-->
-    <div class="slideshow">
-        <div class="images-1">
-        <img src="THIRD ONEf.png" width="95%" height="35%">
+            <div id="links">
+                <a class="Button_2" href="#services"><span>Learn more</a>
+            </div>
         </div>
 
-      <div class="images-2">
-      <img src="SECOND ONEf.png" width="95%" height="35%">
-      </div>
+        <div id="services">
+            <div class="SectionTitle"><h1>Features and Services</h1></div>
+            <div class="description">
+                <h2>What is Virtualis?</h2>
+                <p>Virtualis is a software that converts movies and shows into VR compatible files. This means you could watch your favorite movie or show through the perspective of any character within the movie!</p>
+                <h2>Our features:</h2>
+            </div>
+            <div class="features">
+                <img class="featurespic" id="pic1" src="./Pictures/Icon.png">
+                <p class="featurestext" id="text1">Virtualis has a vast collection of compatible <br> movies and shows.</p>
+            </div>
+            <div class="features">
+                <img class="featurespic" id="pic2" src="./Pictures/Sport.png">
+                <p class="featurestext" id="text2">Virtualis allows you to watch <br>sports directly from the point of <br> view of the player.</p>
+            </div>
+
+            <div class="features">
+                <img class="featurespic" id="pic3" src="./Pictures/Armor.png">
+                <p class="featurestext" id="text3">Virtualis can be combined with <br> body suits for extra realism and <br> a unique experience</p>
+            </div>
+        </div>
+
+        <div id="pricing">   
+            <div class="SectionTitle"><h1>Pricing and Plans</h1></div>
+            <div class="description">
+                <h2>What are virtualis' payement options?</h2>
+                <p>Virtualis works with monthly payments from the customer giving him or her access to a vast array of movies and shows to watch with VR. The higher your membership, the more features you can access. The three current subscriptions options are listed bellow</p>
+                <h2>Membership options</h2>
+            </div>
+
+            <div id="Options">
+                <div class="membership">
+                    <div class="crown" id="Customer1">
+                        <img src="./Pictures/Crown.png">
+                    </div>
+
+                    <h3 id="C1">Regular Customer</h3>
+
+                    <div class="pass">
+                        <img src="./Pictures/CheckMark.png">
+                        <p>Ability to stream ALL movies and Shows</p>
+                    </div>
+                    <div class="pass">
+                        <img src="./Pictures/XMark.png">
+                        <p>Ability to stream live sports</p>
+                    </div>
+                    <div class="pass">
+                        <img src="./Pictures/XMark.png">
+                         <p>Body suit compatibility</p>
+                    </div>
+                    <div class="pass">
+                        <img src="./Pictures/XMark.png">
+                        <p>Ability to stream movies/shows through antagonists</p>
+                    </div>
+                    <div class="pass">
+                        <img src="./Pictures/XMark.png">
+                        <p>Ability to stream movies/shows through side characters</p>
+                    </div>
+
+                    <h3 id="C1">$30.00/Month</h3>  
+                    <div class="pay">
+                        <a class="button_3">Subscribe</a>
+                    </div>
+                </div>
+
+                <div class="membership">
+                        <div class="crown" id="Customer2">
+                            <img src="./Pictures/Crown.png">
+                        </div>
+                        <h3 id="C2">Premium Customer</h3>
+                        <div class="pass">
+                            <img src="./Pictures/CheckMark.png">
+                            <p>Ability to stream ALL movies and Shows</p>
+                        </div>
+                        <div class="pass">
+                            <img src="./Pictures/CheckMark.png">
+                            <p>Ability to stream live sports</p>
+                        </div>
+                        <div class="pass">
+                            <img src="./Pictures/CheckMark.png">
+                             <p>Body suit compatibility</p>
+                        </div>
+                        <div class="pass">
+                            <img src="./Pictures/XMark.png">
+                            <p>Ability to stream movies/shows through antagonists</p>
+                        </div>
+                        <div class="pass">
+                            <img src="./Pictures/XMark.png">
+                            <p>Ability to stream movies/shows through side characters</p>
+                        </div>
     
-      <div class="images-3">
-      <img src="FIRST ONEf.png" width="95%" height="35%">    
-      </div>
-    </div>
+                        <h3 id="C2">$50.00/Month</h3>  
+                        <div class="pay">
+                            <a class="button_3">Subscribe</a>
+                        </div>
+                </div>
 
-    <script src="features.js">
-    </script>
-</body>
+                <div class="membership">
+                        <div class="crown" id="Customer3">
+                            <img src="./Pictures/Crown.png">
+                        </div>
+
+                        <h3 id="C3">Elite Customer</h3>
+                        <div class="pass">
+                            <img src="./Pictures/CheckMark.png">
+                            <p>Ability to stream ALL movies and Shows</p>
+                        </div>
+                        <div class="pass">
+                            <img src="./Pictures/CheckMark.png">
+                            <p>Ability to stream live sports</p>
+                        </div>
+                        <div class="pass">
+                            <img src="./Pictures/CheckMark.png">
+                             <p>Body suit compatibility</p>
+                        </div>
+                        <div class="pass">
+                            <img src="./Pictures/CheckMark.png">
+                            <p>Ability to stream movies/shows through antagonists</p>
+                        </div>
+                        <div class="pass">
+                            <img src="./Pictures/CheckMark.png">
+                            <p>Ability to stream movies/shows through side characters</p>
+                        </div>
+    
+                        <h3 id="C3">$100.00/Month</h3>  
+                        <div class="pay">
+                            <a class="button_3">Subscribe</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="SectionTitle"><h1>About us</h1></div>
+            <div class="team">
+                <img src="./Pictures/Team1.jpg">
+                <p>Youcef Ben Ali</p>
+                <p>Lead Software Engineer and Web Developer</p>
+            </div>
+
+            <div class="team">
+                <img src="./Pictures/Team2.jpg">
+                <p>Fatimah Vakily</p>
+                <p>Product Design</p>
+            </div>
+            <div class="team">
+                <img src="./Pictures/Team3.png">
+                <p>Fred Wei</p>
+                <p>Web Developer</p>
+            </div>
+            <div class="team">
+                <img src="./Pictures/Team4.jpg">
+                <p>Joel Moise Motingia</p>
+                <p>Product Manager</p>
+            </div>  
+            <div class="team">
+                <img src="./Pictures/Team5.png">
+                <p>Gabriel Beaupre-jacques</p>
+                <p>Quality Assurance</p>
+            </div>                          
+            <div id="BigContainer">
+                <div class="SmallContainer">
+                    <h2>About the company</h2>
+                    <p>The company was founded in 2019 by a group of five software engineers from the University of Ottawa
+                        They started off in the city of Ottawa with an office based inside one of the member's garage but eventually growed to its current mutli million dollar organization.
+                    </p>
+
+                    <h2>Our goal</h2>
+                    <p>This company's goal is to help the VR market prosper and allow it to spread into other sectors instead of restricting itself only to videogames. With this we could properly utilize VR technology and truly unleash it's vast potential.
+                    </p>
+                </div>
+
+                <div class="SmallContainer">
+                    <h2>Contact Info</h2>
+                    <p>Email: ContactUs@Virtualis.com</p>
+                    <p>Phone: 613-123-4567</p>
+                    <p>Instragram: @VirtualisInc</p>
+                    <p>Facebook: VirtualisInc</p>
+                    <p>Twitter: @VirtualisInc</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Scroll back to top-->
+        <div><a class="Button" id="Scroll" href="#HomePage"><img id="ScrollPic" src="./Pictures/UpArrow.png"></a></div>
+    </body>
 </html>
